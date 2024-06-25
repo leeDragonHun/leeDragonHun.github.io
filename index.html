@@ -346,10 +346,10 @@
 			          <div class="col-lg-6">
 			            <div class="portfolio-wrap">
 			              	<img src="assets/img/portfolio/BeeNb.png" class="img-fluid" alt="semi1">
-				              	<div class="portfolio-info">
-				              		<a href="" target="_blank" title="Portfolio Details"><i class="bx bx-link"></i></a>
-			              		</div>
-			             	 </div>
+			              	<div class="portfolio-info">
+			              		<a href="" target="_blank" title="Portfolio Details"><i class="bx bx-link"></i></a>
+		              		</div>
+		             	 </div>
 			          </div>
 			          <div class="col-lg-5">
 			            <div class="portfolio-info">
@@ -414,10 +414,10 @@
 			          <div class="col-lg-6">
 			            <div class="portfolio-wrap">
 			              	<img src="assets/img/portfolio/shop.png" class="img-fluid" alt="cash1.jpg">
-				              	<div class="portfolio-info">
-				              		<a href="" target="_blank" title="Portfolio Details"><i class="bx bx-link"></i></a>
-			              		</div>
-		             		 </div>
+			              	<div class="portfolio-info">
+			              		<a href="" target="_blank" title="Portfolio Details"><i class="bx bx-link"></i></a>
+		              		</div>
+	             		 </div>
 			          </div>
 			
 			          <div class="col-lg-5">
@@ -479,11 +479,17 @@
 			        <div class="row gy-4">
 			          <div class="col-lg-6">
 			            <div class="portfolio-wrap">
-			              	<img src="assets/img/portfolio/diary.png" class="img-fluid" alt="cash1.jpg">
-				              	<div class="portfolio-info">
-				              		<a href="" target="_blank" title="Portfolio Details"><i class="bx bx-link"></i></a>
-			              		</div> 
-		             		 </div>
+			              	<img src="assets/img/portfolio/diary.png" class="img-fluid" alt="diary.png">
+			              	<div class="portfolio-info">
+			              		<a href="" target="_blank" title="Portfolio Details"><i class="bx bx-link"></i></a>
+		              		</div> 
+		             	</div>
+			            <div class="portfolio-wrap">
+			              	<img src="assets/img/portfolio/diaryIcon.png" class="img-fluid" alt="diaryIcon.png">
+			              	<div class="portfolio-info">
+			              		<a href="" target="_blank" title="Portfolio Details"><i class="bx bx-link"></i></a>
+		              		</div> 
+		             	</div>
 			          </div>
 			
 			          <div class="col-lg-5">
@@ -493,24 +499,50 @@
 			            <div class="portfolio-description">
 			                <p>
 			                	<b>JSP 기반 MODEL1 방식의 1차 개인프로젝트</b><br>
-			                	<span>JSP를 배우고 처음 만들어 본 프로젝트</span>
+			                	<span>JSP를 배우고 <b>처음</b> 만들어 본 프로젝트</span><br>
+			                	<span>디자인 요소를 직접 스케치한 감정 쓰레기통이라는 컨셉의 다이어리</span>
 			                </p>
 			              	<hr> 
 			              	<div style="margin-bottom: 25px">
 				                <a href="https://github.com/electricPo/mvc-test" class="btn btn-dark" role="button" style="text-decoration: none;" target="_blank">GitHub</a>
-			                	<!-- <button type="button" class="btn btn-secondary" onclick="window.open('assets/img/portfolio/cashbookERD.PNG')">ERD</button>
-			                	<a href="" class="btn btn-warning" target="_blank">Notion</a> -->
+				                <a href="http://52.79.169.153/diary/diary.jsp" class="btn btn-dark" role="button" style="text-decoration: none;" target="_blank">홈페이지</a>
 			              	</div>
 			              	<ul>
-								<li style="margin-bottom: 5px">개발 환경 및 라이브러리 <br> - JDK 17, HTML, CSS, SQL, Ajax, jQuery, Java Script, JSTL, JavaServlet, JDBC, Bootstrap, Maria DB, Eclipse</li>
+								<li style="margin-bottom: 5px">개발 환경 및 라이브러리 <br> - JDK 17, HTML, CSS, JDBC, Bootstrap, Maria DB, Eclipse</li>
 							</ul>
 			                <hr>
 			                <b>기능</b><br>
 			                	<ul>
 			                		<li>
-				                 	<b>달력</b><br>달력, 페이징, 게시판 CRUD, CSS를 활용한 차트, 투표기능
-				                 		&nbsp; onclick 기능을 사용해 해당 날짜에 커서를 hover 하면 상세페이지로 이동하도록 구현<br>
-				                 		&nbsp; DecimalFormat 기능을 활용해 1000원 단위로 가격 쉼표가 찍히도록 구현<br>
+					                 	<b>로그인</b><br>
+					                 		&nbsp; DB를 조회하여 로그인 하는 기능<br>
+					                 		&nbsp; session에 로그인 정보를 주입하는 기능<br>
+					                 		&nbsp; session을 초기화 하여 로그아웃 하는 기능<br>
+				                 	</li>
+			                		<li>
+					                 	<b>게시판(다이어리) CRUD</b><br>
+					                 		&nbsp; 다이어리가 CRUD 되게 하는 기능<br>
+					                 		&nbsp; 하루에 한 페이지만 쓸 수 있게 오늘의 다이어리를 조회하는 기능<br>
+					                 		&nbsp; JAVA에서 제공하는 기본 API를 이용하여 달력형식으로 다이어리를 출력하는 기능<br>
+					                 		&nbsp; 리스트형식으로 다이어리를 출력하는 기능<br>
+					                 		&nbsp; 첫페이지부터 마지막페이지까지 이전 다음버튼으로 페이징을 할 수 있는 로직 구현<br>
+				                 	</li>
+			                		<li>
+					                 	<b>게시판(다이어리) CRUD</b><br>
+					                 		&nbsp; 다이어리가 CRUD 되게 하는 기능<br>
+					                 		&nbsp; 하루에 한 페이지만 쓸 수 있게 오늘의 다이어리를 조회하는 기능<br>
+					                 		&nbsp; JAVA에서 제공하는 기본 API를 이용하여 달력형식으로 다이어리를 출력하는 기능<br>
+					                 		&nbsp; 리스트형식으로 다이어리를 출력하는 기능<br>
+				                 	</li>
+			                		<li>
+					                 	<b>투표기능</b><br>
+					                 		&nbsp; JDBC를 이용해 식사메뉴를 투표할 수 있는 기능<br>
+					                 		&nbsp; JDBC를 이용해 투표의 통계를 나타내는 기능<br>
+				                 	</li>
+			                		<li>
+					                 	<b>CSS</b><br>
+					                 		&nbsp; hover 기능을 사용해 해당 버튼에 마우스를 올리면 버튼 모양이 바뀌게 동적으로 표현하는 기능<br>
+					                 		&nbsp; CSS를 활용한 차트 모양을 출력하는 기능<br>
 				                 	</li>
 			            		</ul>
 			            </div>
