@@ -261,7 +261,10 @@
 			              <h3>에어비앤비 플랫폼(final 팀프로젝트)(23'06.13 ~ 개발중)</h3>
 			            </div>
 			            <div class="portfolio-description">
-			                <p><b>Spring/MVC model 2 방식의 에어비엔비 플랫폼 구현</b></p>
+			                <p>
+			                	<b>Spring/MVC model 2 방식의 에어비엔비 플랫폼 구현</b><br>
+			                	<span>현업 개발자와 멘토링을 진행하며 만든 프로젝트</span>
+			                </p>
 			              	<hr> 
 			              	<div style="margin-bottom: 25px">
 				                <a href="" class="btn btn-dark" role="button" style="text-decoration: none;" target="_blank">GitHub</a>
@@ -303,8 +306,7 @@
 			        <div class="row gy-4">
 			          <div class="col-lg-6">
 			            <div class="portfolio-wrap">
-			              	<img src="assets/img/portfolio/semi1.jpg" class="img-fluid" alt="semi1">
-			              	<img src="assets/img/portfolio/semi2.jpg" class="img-fluid" alt="semi2">
+			              	<img src="assets/img/portfolio/BeeNb.png" class="img-fluid" alt="semi1">
 				              	<div class="portfolio-info">
 				              		<a href="" target="_blank" title="Portfolio Details"><i class="bx bx-link"></i></a>
 			              		</div>
@@ -312,39 +314,43 @@
 			          </div>
 			          <div class="col-lg-5">
 			            <div class="portfolio-info">
-			              <h3>숙소예약 플랫폼 (semi 팀프로젝트)(2023.06 .01 ~ 2023. 06. 27)</h3>
+			              <h3>숙소예약 플랫폼 (semi 팀프로젝트)(2024.04 .29 ~ 2024. 05. 29)</h3>
 			            </div>
 			            <div class="portfolio-description">
-			                <p><b>Model 1 방식으로 꽃 판매 쇼핑몰 구현</b></p>
+			                <p>
+			                	<b>JSP를 이용하여 Model 1 방식으로 숙소예약 구현</b>
+			                	<span>처음으로 해본 팀 프로젝트.(파이널 프로젝트를 위한 연습)</span>
+			                </p>
 			              	<hr> 
 			              	<div style="margin-bottom: 25px">
-				                <a href="https://github.com/Sanlee27/FlowerShop_Lilac" class="btn btn-dark" role="button" style="text-decoration: none;" target="_blank">GitHub</a>
-				                <button type="button" class="btn btn-secondary" onclick="window.open('assets/img/portfolio/semiErd.png')">ERD</button>
-				                <a href="http://3.39.128.115/FlowerShop_Lilac/home.jsp" class="btn btn-info" target="_blank">AWS</a>
+				                <a href="https://github.com/TEAM-beeNb/BeeNb" class="btn btn-dark" role="button" style="text-decoration: none;" target="_blank">GitHub</a>
+				                <a href="https://docs.google.com/spreadsheets/d/1flmdfIy1I2wkLUOVqL8NT0mqpYqAdjnJkzew7Csy7G0/edit?gid=2023607474#gid=2023607474" class="btn btn-info" target="_blank">인터페이스 설계</a>
 			              	</div>
 			              	<ul>
 								<li style="margin-bottom: 5px"><b>개발 환경 및 라이브러리</b></li>
-								<li>JDK 17, HTML, CSS, SQL, jQuery, Java Script, Ajax, JDBC, Maria DB</li>
+								<li>JDK 17, HTML, CSS, SQL, JDBC, Maria DB</li>
 							</ul>
 			                <hr>
 			                <b>담당 기능</b><br> 
 			                	<ul>
 			                		<li>
-				                 	<b>후기(review) CRUD</b><br>
-				                 		&nbsp; 상품을 구매한 사람만 상품 후기를 쓸 수 있는 게시판 구현<br>
-				                 		&nbsp; MultipartRequest를 이용한 사진파일 업로드 기능 구현<br>
-				                 		&nbsp; 작성자 이외에 수정/삭제 버튼이 안 보이도록 구현<br>
+				                 	<b>메인 페이지</b><br>
+				                 		&nbsp; 다양한 검색 조건으로 결과를 출력해주는 기능 구현<br>
+				                 		&nbsp; 출력될 결과를 필터링 해주는 필터 기능 구현<br>
+				                 		&nbsp; 카테고리별로 출력되게 해주는 기능 구현<br>
+				                 		&nbsp; 숙소 운영기간이면서 예약되지 않은 숙소만 출력해주는 기능 구현<br>
+				                 		&nbsp; 위 사항중 특정한 n개만 사용하여도 출력해주는 기능<br>
 				                 	</li>
 				                 	<li>
-								 	<b>문의(question) CRUD</b><br>
-								 		&nbsp; 상품 페이지의 상품에 대해 문의할 수 있는 게시판 구현<br>
-								 		&nbsp; 작성자 이외에 수정/삭제 버튼이 안 보이도록 구현<br>
+								 	<b>숙소 관리</b><br>
+								 		&nbsp; 숙소 등록을 요청하는 리스트와 그 숙소를 심사하는 기능<br>
+								 		&nbsp; 숙소 테마 라는 기초데이터 관리기능<br>
 								 	</li>
 								 	<li>
-									<b>HOME화면 기능 구현</b><br>	
-										&nbsp; for each문과 HashMap 기능을 이용해 DB에 등록된 상품의 사진, 가격, 상품명 등이 8개씩 노출되도록 구현<br>
-										&nbsp; 조건문을 활용해 discountRate > 0인 경우 할인 상품의 가격이 노출되도록 구현 <br>
-										&nbsp; DecimalFormat 기능을 활용해 1000원 단위로 가격 쉼표가 찍히도록 구현<br>
+									<b>공통 기능</b><br>	
+										&nbsp; 네비게이션바, 푸터 등 공통적으로 쓰는 기능 구현<br>
+										&nbsp; 모든 페이지에 로그인 인증 분기 구현 <br>
+										&nbsp; 공통 스타일 적용 <br>
 									</li>
 			            		</ul>
 			           		 </div>
