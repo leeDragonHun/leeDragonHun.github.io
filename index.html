@@ -289,8 +289,8 @@
 	          <div class="col-lg-12 justify-content-center" data-aos="fade-up" data-aos-delay="100">
 	            <ul id="portfolio-flters">
 	              <li data-filter="*" class="filter-active">전체보기</li>
-	              <li data-filter=".filter-booking">에어비앤비 플랫폼 (final 팀프로젝트)</li>
-	              <li data-filter=".filter-lms">숙소예약 플랫폼 (semi 팀프로젝트)</li>
+	              <li data-filter=".filter-booking">C2C 숙소예약 플랫폼 (Final 팀프로젝트)</li>
+	              <li data-filter=".filter-lms">숙소예약 (Semi 팀프로젝트)</li>
 	              <li data-filter=".filter-board">쇼핑몰 (개인프로젝트)</li>
 	              <li data-filter=".filter-shop">다이어리 (개인프로젝트)</li>
 	            </ul>
@@ -306,7 +306,7 @@
 			        <div class="row gy-4">
 			          <div class="col-lg-6">
 			            <div class="portfolio-wrap">
-			              	<img src="assets/img/portfolio/airbnb.png" class="img-fluid" alt="">			              	     	
+			              	<img src="assets/img/portfolio/aoom.png" class="img-fluid" alt="">			              	     	
 			              	<div class="portfolio-info">
 			              		<a href="http://15.165.143.58/58platform/integrationPage" target="_blank" title="Portfolio Details"><i class="bx bx-link"></i></a>
 		              		</div>
@@ -315,7 +315,7 @@
 			
 			          <div class="col-lg-5">
 			            <div class="portfolio-info">
-			              <h3>에어비앤비 플랫폼 (final 팀프로젝트)(24.06.13 ~ 개발중)</h3>
+			              <h3>C2C 숙소예약 플랫폼 (final 팀프로젝트)(24.06.13 ~ 24.08.08)</h3>
 			            </div>
 			            <div class="portfolio-description">
 			                <p>
@@ -329,30 +329,47 @@
 				                <a href="https://github.com/GDJ80-alphaTeam" class="btn btn-dark" role="button" style="text-decoration: none;" target="_blank">GitHub</a>
 				                <a href="https://ovenapp.io/project/aT7wfVswNnJ0sZJA6qYeriJOszRL4I06#zNzbt" class="btn btn-dark" role="button" style="text-decoration: none;" target="_blank">와이어프레임(고객)</a>
 				                <a href="https://ovenapp.io/project/2WQGfuBG3JuO56hESMFsE74WR3dc9eJj#MSVmA" class="btn btn-dark" role="button" style="text-decoration: none;" target="_blank">와이어프레임(관리자)</a>
-				                <a href="https://docs.google.com/spreadsheets/d/1maEQi0Upb-j2Q-uGQU8IBkkwCRk44afY/edit?gid=1278390658#gid=1278390658" class="btn btn-dark" role="button" style="text-decoration: none;" target="_blank">메뉴구조도/개발현황/간트차트/erd규칙정의서</a>
+				                <br><br>
+				                <a href="https://docs.google.com/spreadsheets/d/1maEQi0Upb-j2Q-uGQU8IBkkwCRk44afY/edit?gid=1278390658#gid=1278390658" class="btn btn-dark" role="button" style="text-decoration: none;" target="_blank">통합문서</a>
+				                <a href="https://www.notion.so/Alpha-Team-e8ea2e8a12514fe9977fda8ee67404fc" class="btn btn-dark" role="button" style="text-decoration: none;" target="_blank">노션일정관리</a>
+				                <a href="https://docs.google.com/presentation/d/1SxJdFjBlcCNdofjuOmorFbrdCvLxpiRbXlYkc8MViGg/edit#slide=id.g2f0ec9ff06c_1_53" class="btn btn-dark" role="button" style="text-decoration: none;" target="_blank">PPT</a>
 				                <br>
 			              	</div>
 			              	<ul>
-								<li style="margin-bottom: 5px"><b>개발 환경 및 라이브러리</b> <br> - Spring Boot, restAPI, JDK 17, HTML, CSS, SQL, jQuery, Java Script, JSTL, Ajax, Mybatis, Maven, JDBC, Bootstrap, Oracle DB</li>
+								<li style="margin-bottom: 5px"><b>개발 환경 및 라이브러리</b> <br> - Spring Boot(3.2.7), restAPI, JDK 17, HTML, CSS, SQL, jQuery, Java Script, JSTL, Ajax, Mybatis, Maven, JDBC, Bootstrap, Oracle DB(11g)</li>
 							</ul>
 			                <hr>
 			                <b>담당 기능</b><br>
 			                	<ul>
 			                		<li>
-					                 	<b>1. 00기능</b><br>
-					                 		&nbsp; test<br>
-					                 		&nbsp; test<br>
-					                 		&nbsp; test<br>
+					                 	<b>1. 메인</b><br>
+					                 		&nbsp; 로그인 기능 구현<br>
+					                 		&nbsp; 회원가입과 이메일인증 기능<br>
+					                 		&nbsp; 다양한 조건으로 검색하는 기능<br>
+					                 		&nbsp; 필터링 하여 결과를 출력하는 기능<br>
+					                 		&nbsp; 카테고리를 선택하여 결과를 출력하는 기능<br>
 				                 	</li>
 				                 	<li>
-									 	<b>2. 00관리</b><br>
-									 		&nbsp; test<br>
-									 		&nbsp; test<br>
+									 	<b>2. 숙소예약</b><br>
+									 		&nbsp; 숙소를 예약하는 기능<br>
+									 		&nbsp; 숙소상태를 업데이트하는 기능<br>
+									 		&nbsp; 결제관련 로직을 추가하는 기능<br>
 								 	</li>
 								 	<li>
-										<b>3. 00관리</b><br>	
-											&nbsp; test<br>
-											&nbsp; test<br>
+										<b>3. 대시보드</b><br>	
+											&nbsp; 호스트의 오늘의 일정을 확인하는 기능<br>
+											&nbsp; 호스팅한 숙소의 각종 정보를 차트형태로 확인하는 기능<br>
+									</li>
+								 	<li>
+										<b>4. 예약관리</b><br>	
+											&nbsp; 예약받은 목록을 관리하는 기능<br>
+											&nbsp; 예약 건을 상세조회하는 기능<br>
+									</li>
+								 	<li>
+										<b>5. 프레임워크</b><br>	
+											&nbsp; 로그인 인터셉터 기능<br>
+											&nbsp; restAPI 공통응답코드 기능<br>
+											&nbsp; 파일저장시 일자별로 폴더생성 되는 기능<br>
 									</li>
 			            		</ul>
 			            	</div>
@@ -419,6 +436,7 @@
 									</li>
 								 	<li>
 				                 		<b>4. 관리자 정보 CRUD</b><br>
+											&nbsp; 관리자의 정보를 추가, 수정, 삭제하는 기능 구현 <br>
 				                 	</li>
 			            		</ul>
 			           		 </div>
